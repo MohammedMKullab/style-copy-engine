@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { name: "BURIED WITHIN", href: "#" },
+    { name: "BURIED WITHIN", href: "/buried-within" },
     { name: "CAREERS", href: "#careers" },
     { name: "CONTACT", href: "#contact" },
     { name: "MEDIA", href: "#" },
