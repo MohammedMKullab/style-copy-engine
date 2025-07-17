@@ -8,35 +8,56 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 220 13% 9%;
+    --foreground: 0 0% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 220 13% 12%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 220 13% 12%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 38 92% 50%;
+    --primary-foreground: 220 13% 9%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 220 13% 15%;
+    --secondary-foreground: 0 0% 95%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 13% 15%;
+    --muted-foreground: 220 9% 46%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 38 92% 50%;
+    --accent-foreground: 220 13% 9%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 18%;
+    --input: 220 13% 18%;
+    --ring: 38 92% 50%;
 
     --radius: 0.5rem;
+
+    /* Gaming theme colors */
+    --gaming-dark: 220 13% 9%;
+    --gaming-darker: 220 13% 6%;
+    --gaming-card: 220 13% 12%;
+    --gaming-gold: 38 92% 50%;
+    --gaming-gold-muted: 38 70% 45%;
+    --gaming-text: 0 0% 95%;
+    --gaming-text-muted: 220 9% 46%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--gaming-darker)), hsl(var(--gaming-dark)));
+    --gradient-card: linear-gradient(145deg, hsl(var(--gaming-card)), hsl(var(--gaming-dark)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--gaming-gold)), hsl(var(--gaming-gold-muted)));
+
+    /* Shadows */
+    --shadow-gaming: 0 10px 30px -10px hsl(var(--gaming-darker) / 0.8);
+    --shadow-glow: 0 0 40px hsl(var(--gaming-gold) / 0.3);
+
+    /* Animations */
+    --transition-gaming: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
