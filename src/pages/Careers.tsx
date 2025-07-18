@@ -7,6 +7,8 @@ import { Label } from "@/components/ui/label";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ChevronDown } from "lucide-react";
+import canvas1 from "@/assets/canvas-1.jpg";
+import canvas2 from "@/assets/canvas-2.jpg";
 
 const Careers = () => {
   const [formData, setFormData] = useState({
@@ -101,8 +103,12 @@ const Careers = () => {
           </div>
           
           <div className="text-center mb-16">
-            <div className="text-gaming-text-muted text-6xl font-serif italic">
-              Canvas
+            <div className="w-full max-w-lg mx-auto">
+              <img 
+                src={canvas1} 
+                alt="Gaming Development" 
+                className="w-full h-56 object-cover rounded-lg shadow-lg opacity-80 hover:opacity-100 transition-opacity duration-300"
+              />
             </div>
           </div>
         </div>
@@ -258,8 +264,12 @@ const Careers = () => {
 
             {/* Logo/Graphic */}
             <div className="flex items-center justify-center">
-              <div className="text-gaming-text-muted text-8xl font-serif italic opacity-50">
-                Canvas
+              <div className="w-full max-w-md">
+                <img 
+                  src={canvas2} 
+                  alt="Code Programming" 
+                  className="w-full h-64 object-cover rounded-lg shadow-lg opacity-60 hover:opacity-80 transition-opacity duration-300"
+                />
               </div>
             </div>
           </div>

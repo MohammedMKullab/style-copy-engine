@@ -1,6 +1,11 @@
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import canvas1 from "@/assets/canvas-1.jpg";
+import canvas2 from "@/assets/canvas-2.jpg";
+import canvas3 from "@/assets/canvas-3.jpg";
+import canvas4 from "@/assets/canvas-4.jpg";
+import canvas5 from "@/assets/canvas-5.jpg";
 
 const BuriedWithin = () => {
   return (
@@ -21,8 +26,12 @@ const BuriedWithin = () => {
             BURIED<span className="text-gaming-text-muted">"</span>WITHIN
           </h1>
           
-          <div className="text-4xl md:text-6xl font-serif italic text-gaming-text-muted mb-12">
-            Canvas
+          <div className="w-full max-w-md mx-auto">
+            <img 
+              src={canvas1} 
+              alt="Gaming Development" 
+              className="w-full h-48 object-cover rounded-lg shadow-lg opacity-80 hover:opacity-100 transition-opacity duration-300"
+            />
           </div>
           
           <Button 
@@ -50,8 +59,12 @@ const BuriedWithin = () => {
           </h2>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="text-gaming-text-muted text-xl font-serif italic mb-8 md:mb-0">
-              Canvas
+            <div className="w-full max-w-sm">
+              <img 
+                src={canvas2} 
+                alt="Code Programming" 
+                className="w-full h-40 object-cover rounded-lg shadow-lg opacity-80 hover:opacity-100 transition-opacity duration-300"
+              />
             </div>
             
             <div className="text-gaming-text">
@@ -89,8 +102,12 @@ const BuriedWithin = () => {
                 Now as faces from his past overpower him with his own forgotten strengths, Harron must fight to regain what he lost, using whatever cunning he can recall.
               </p>
             </div>
-            <div className="text-gaming-text-muted text-6xl font-serif italic">
-              Canvas
+            <div className="w-full max-w-sm">
+              <img 
+                src={canvas3} 
+                alt="MacBook Development" 
+                className="w-full h-48 object-cover rounded-lg shadow-lg opacity-80 hover:opacity-100 transition-opacity duration-300"
+              />
             </div>
           </div>
 
@@ -109,8 +126,12 @@ const BuriedWithin = () => {
                   The most relentless foes emerge from his fractured past, requiring more than hacking and slashing to overcome. As you face these spectral enemies, remember: every encounter is a riddle, and solving it brings Harron one step closer to reclaiming his lost memories.
                 </p>
               </div>
-              <div className="text-gaming-text-muted text-4xl font-serif italic">
-                Canvas
+              <div className="w-full max-w-xs">
+                <img 
+                  src={canvas4} 
+                  alt="Video Screens Display" 
+                  className="w-full h-32 object-cover rounded-lg shadow-lg opacity-80 hover:opacity-100 transition-opacity duration-300"
+                />
               </div>
             </div>
           </div>
@@ -119,8 +140,12 @@ const BuriedWithin = () => {
           <div>
             <h3 className="text-2xl font-bold text-gaming-gold mb-8">Plan & Execute or Battles with the Sigil System</h3>
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="text-gaming-text-muted text-4xl font-serif italic">
-                Canvas
+              <div className="w-full max-w-sm">
+                <img 
+                  src={canvas5} 
+                  alt="People with Laptops" 
+                  className="w-full h-40 object-cover rounded-lg shadow-lg opacity-80 hover:opacity-100 transition-opacity duration-300"
+                />
               </div>
               <div>
                 <p className="text-gaming-text mb-4">
@@ -144,8 +169,12 @@ const BuriedWithin = () => {
         
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-            <div className="text-gaming-text-muted text-6xl font-serif italic">
-              Canvas
+            <div className="w-full max-w-md">
+              <img 
+                src={canvas1} 
+                alt="Gaming Development" 
+                className="w-full h-48 object-cover rounded-lg shadow-lg opacity-80 hover:opacity-100 transition-opacity duration-300"
+              />
             </div>
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gaming-gold mb-6">
@@ -164,8 +193,12 @@ const BuriedWithin = () => {
           </div>
 
           <div className="text-center">
-            <div className="text-gaming-text-muted text-6xl font-serif italic mb-12">
-              Canvas
+            <div className="w-full max-w-lg mx-auto">
+              <img 
+                src={canvas2} 
+                alt="Code Programming" 
+                className="w-full h-56 object-cover rounded-lg shadow-lg opacity-80 hover:opacity-100 transition-opacity duration-300"
+              />
             </div>
             
             <Button 
