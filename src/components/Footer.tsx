@@ -1,5 +1,5 @@
 import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/career_bg.png";
 
 const Footer = () => {
   return (
@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           {/* Logo */}
           <div className="flex items-center justify-center md:justify-start">
-            <img src={logo} alt="Eram Games" className="h-10 w-10 mr-3" />
-            <span className="text-gaming-gold font-bold text-xl tracking-wide">
+            <img src={logo} alt="Eram Games" className=" h-10 w-10 mr-3" />
+            <span className="text-white font-bold text-xl tracking-wide">
               ERAM GAMES
             </span>
           </div>

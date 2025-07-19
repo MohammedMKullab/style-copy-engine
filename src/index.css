@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 220 13% 12%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 38 92% 50%;
+    --primary: 32, 32%, 55%;
     --primary-foreground: 220 13% 9%;
 
     --secondary: 220 13% 15%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 220 13% 15%;
     --muted-foreground: 220 9% 46%;
 
-    --accent: 38 92% 50%;
+    --accent: 32, 32%, 55%;
     --accent-foreground: 220 13% 9%;
 
     --destructive: 0 62.8% 30.6%;
@@ -34,7 +34,7 @@ All colors MUST be HSL.
 
     --border: 220 13% 18%;
     --input: 220 13% 18%;
-    --ring: 38 92% 50%;
+    --ring: 32, 32%, 55%;
 
     --radius: 0.5rem;
 
@@ -42,7 +42,7 @@ All colors MUST be HSL.
     --gaming-dark: 220 13% 9%;
     --gaming-darker: 220 13% 6%;
     --gaming-card: 220 13% 12%;
-    --gaming-gold: 38 92% 50%;
+    --gaming-gold: 32, 32%, 55%;
     --gaming-gold-muted: 38 70% 45%;
     --gaming-text: 0 0% 95%;
     --gaming-text-muted: 220 9% 46%;
@@ -126,4 +126,12 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.breadcrumb {
+  --s: 40px; /* control the shape */
+  
+  line-height: 1.8; /* control the height */
+  padding-inline: .3em calc(var(--s) + .3em);
+  clip-path: polygon(0 0, var(--s) 0, 100% 50%, var(--s) 100%, 0 100%);
 }

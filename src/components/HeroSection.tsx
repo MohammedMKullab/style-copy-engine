@@ -1,11 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState, useEffect } from "react";
-import slide1 from "@/assets/slide-1.jpg";
-import slide2 from "@/assets/slide-2.jpg";
-import slide3 from "@/assets/slide-3.jpg";
-import slide4 from "@/assets/slide-4.jpg";
-import slide5 from "@/assets/slide-5.jpg";
+import slide1 from "@/assets/KV_main_004_MR.png";
+import slide2 from "@/assets/impending_pain_rune_final_5_.jpg";
+import slide3 from "@/assets/Crow-_Bridge_fight_keyframe-8feb25.jpg";
+import slide4 from "@/assets/bridge_city_final_bruit.jpg";
 
 const slides = [
   {
@@ -36,7 +35,7 @@ const slides = [
     title: "Evolution",
     subtitle: "Constantly pushing boundaries",
     sideText: "EVOLVE",
-    image: slide5
+    image: slide2
   }
 ];
 
@@ -110,7 +109,7 @@ const HeroSection = () => {
             isTransitioning ? 'translate-x-8 opacity-0' : 'translate-x-0 opacity-100'
           }`}>
             {slides[currentSlide].title}
-            <span className={`block text-gaming-gold-muted text-lg md:text-xl font-light tracking-[0.2em] mt-4 opacity-60 transform -rotate-90 origin-center absolute right-0 top-1/2 -translate-y-1/2 translate-x-16 hidden lg:block transition-all duration-700 ${
+            <span className={`text-gaming-gold-muted text-lg md:text-xl font-light tracking-[0.2em] mt-4 opacity-60 transform -rotate-90 origin-center absolute right-0 top-1/2 -translate-y-1/2 translate-x-16 hidden lg:block transition-all duration-700 ${
               isTransitioning ? 'opacity-0' : 'opacity-60'
             }`}>
               {slides[currentSlide].sideText}

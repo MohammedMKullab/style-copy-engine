@@ -7,8 +7,7 @@ import { Label } from "@/components/ui/label";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ChevronDown } from "lucide-react";
-import canvas1 from "@/assets/canvas-1.jpg";
-import canvas2 from "@/assets/canvas-2.jpg";
+import career_1 from "@/assets/career_1.png";
 
 const Careers = () => {
   const [formData, setFormData] = useState({
@@ -49,28 +48,28 @@ const Careers = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-gaming-darker">
-        <div className="absolute inset-0 bg-gradient-hero opacity-90"></div>
+      <section className="relative min-h-screen flex items-center justify-center bg-gaming-darker bg-cover  bg-[url(@/assets/Extreme_Close_FullQuality.png)]">
+        <div className="absolute inset-0 bg-gradient-hero opacity-70"></div>
         <div className="absolute inset-0 bg-grid-pattern opacity-20"></div>
         
-        <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-          <h1 className="text-6xl md:text-8xl font-bold text-gaming-gold mb-6">
+        <div className="flex-1 z-10   mx-auto px-4">
+          <h1 className="text-6xl text-center md:text-9xl font-bold text-gaming-gold mb-6">
             JOIN
           </h1>
-          <h2 className="text-4xl md:text-6xl font-bold text-gaming-gold mb-8">
+          <h2 className="text-4xl text-center ms-96 md:text-7xl font-bold text-gaming-gold mb-8">
             THE TEAM
           </h2>
           
-          <p className="text-gaming-text text-lg mb-4">
+          <p className="text-gaming-text  text-2xl mb-4">
             We're always on the lookout for top talent for future
           </p>
-          <p className="text-gaming-text text-lg mb-4">
+          <p className="text-gaming-text text-2xl mb-4">
             opportunities. If you're interested in working with
           </p>
-          <p className="text-gaming-text text-lg mb-8">
+          <p className="text-gaming-text text-2xl mb-8">
             us, please email us at jobs@eramgames.com or via
           </p>
-          <p className="text-gaming-text text-lg mb-12">
+          <p className="text-gaming-text text-2xl mb-12">
             Contact form
           </p>
           
@@ -95,14 +94,14 @@ const Careers = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mb-16">
             {openings.map((opening) => (
-              <div key={opening.category} className="border border-gaming-gold/30 p-6 text-center">
-                <div className="text-gaming-text font-medium mb-2">{opening.category}</div>
-                <div className="text-gaming-gold text-2xl font-bold">{opening.count}</div>
+              <div key={opening.category} className="border border-gaming-gold p-6 text-center ">
+                <div className="text-gaming-gold font-medium mb-2 ">{opening.category} {opening.count}</div>
+                {/* <div className=" text-2xl font-bold"></div> */}
               </div>
             ))}
           </div>
           
-          <div className="text-center mb-16">
+          {/* <div className="text-center mb-16">
             <div className="w-full max-w-lg mx-auto">
               <img 
                 src={canvas1} 
@@ -110,7 +109,7 @@ const Careers = () => {
                 className="w-full h-56 object-cover rounded-lg shadow-lg opacity-80 hover:opacity-100 transition-opacity duration-300"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -124,7 +123,7 @@ const Careers = () => {
       </section>
 
       {/* Contact Form Section */}
-      <section className="py-20 px-4 bg-gaming-dark relative">
+      <section className="py-20 px-4 bg-gaming-dark relative bg-cover bg-center bg-[url(@/assets/career_bg.png)]">
         <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
         
         <div className="max-w-6xl mx-auto relative z-10">
@@ -266,9 +265,9 @@ const Careers = () => {
             <div className="flex items-center justify-center">
               <div className="w-full max-w-md">
                 <img 
-                  src={canvas2} 
+                  src={career_1} 
                   alt="Code Programming" 
-                  className="w-full h-64 object-cover rounded-lg shadow-lg opacity-60 hover:opacity-80 transition-opacity duration-300"
+                  className="w-full h-[42rem] object-cover rounded-lg shadow-lg opacity-60 hover:opacity-80 transition-opacity duration-300"
                 />
               </div>
             </div>

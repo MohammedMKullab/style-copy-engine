@@ -13,18 +13,18 @@ const TeamSection = () => {
     },
     {
       name: "Lead Designer", 
-      subtitle: "Sarah Chen",
-      image: teamMember2,
+      subtitle: "Matthew Chen",
+      image: teamMember1,
     },
     {
       name: "Lead Programmer",
       subtitle: "Michael Rodriguez", 
-      image: teamMember3,
+      image: teamMember1,
     },
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-gaming-dark to-gaming-darker relative overflow-hidden">
+    <section className="pt-20 ">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(45deg,rgba(255,215,0,0.02)_1px,transparent_1px),linear-gradient(-45deg,rgba(255,215,0,0.02)_1px,transparent_1px)] bg-[size:60px_60px]"></div>
       
