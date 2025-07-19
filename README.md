@@ -1,22 +1,22 @@
-# Welcome to your Lovable project
+# Welcome to your game project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/893bb5d9-58ba-4c00-bba6-9eafa512fb13
+**URL**: https://game.dev/projects/893bb5d9-58ba-4c00-bba6-9eafa512fb13
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**Use game**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/893bb5d9-58ba-4c00-bba6-9eafa512fb13) and start prompting.
+Simply visit the [game Project](https://game.dev/projects/893bb5d9-58ba-4c00-bba6-9eafa512fb13) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made via game will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in game.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -62,12 +62,12 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/893bb5d9-58ba-4c00-bba6-9eafa512fb13) and click on Share -> Publish.
+Simply open [game](https://game.dev/projects/893bb5d9-58ba-4c00-bba6-9eafa512fb13) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+## Can I connect a custom domain to my game project?
 
 Yes, you can!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Read more here: [Setting up a custom domain](https://docs.game.dev/tips-tricks/custom-domain#step-by-step-guide)

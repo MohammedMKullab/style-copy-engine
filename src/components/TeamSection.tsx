@@ -1,8 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import teamMember1 from "@/assets/team-member-1.jpg";
-import teamMember2 from "@/assets/team-member-2.jpg";
-import teamMember3 from "@/assets/team-member-3.jpg";
+import teamMember1 from "@/assets/team-member-3.jpg";
 
 const TeamSection = () => {
   const teamMembers = [

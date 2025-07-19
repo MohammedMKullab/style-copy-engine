@@ -10,7 +10,6 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <AboutSection />
-      
       <Footer />
     </div>
   );

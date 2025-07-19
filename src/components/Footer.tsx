@@ -72,7 +72,7 @@ const Footer = () => {
 
             {/* Copyright & Links */}
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6 text-sm text-gaming-text-muted">
-              <p>Copyright © Eram Games, LLC 2024</p>
+              <p>Copyright © Eram Games, LLC 2025</p>
               <div className="flex space-x-4">
                 <a href="#" className="hover:text-gaming-gold transition-colors duration-300">
                   Terms & Conditions
